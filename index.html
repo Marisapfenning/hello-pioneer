@@ -24,11 +24,8 @@
   <canvas id="confetti"></canvas>
 
   <script>
-    // Only celebrate on the very first visit.
-    if (!localStorage.getItem('confettiShown')) {
-      localStorage.setItem('confettiShown', 'true');
-      launchConfetti();
-    }
+    // Celebrate on every page load, including refreshes.
+    launchConfetti();
 
     function launchConfetti() {
       const canvas = document.getElementById('confetti');
