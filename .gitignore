@@ -1,0 +1,10 @@
+.vercel
+
+# --- Dropbox / macOS cruft (managed) ---
+.DS_Store
+Icon?
+.dropbox
+.dropbox.attr
+*conflicted copy*
+*.sb-*~
+# --- end Dropbox / macOS cruft ---
